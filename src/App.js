@@ -38,11 +38,10 @@ function App() {
   }
 
   const addBook = (book) => {
-    console.log('Added Book:')
-    console.log(book)
-    let isbnBook = {...book, isbn:Math.random()}
-
-    setBooks([isbnBook, ...book])
+    console.log('Added Book:');
+    console.log(book);
+    let isbnBook = { ...book, isbn:Math.random()};
+    setBooks([isbnBook, ...books]);
   }
 
   return (

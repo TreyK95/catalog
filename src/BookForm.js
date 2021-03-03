@@ -36,7 +36,7 @@ const BookForm = (props) => {
               value={genre}
               onChange={(t)=>{setGenre(t.target.value)}}
             />
-            <button type='submit'>add</button>
+            <button type='submit'>submit</button>
         </form>
     </div>
 )
